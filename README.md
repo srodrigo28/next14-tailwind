@@ -10,8 +10,9 @@ npm install create-next-app@latest -g
 npx create-next-app@latest app-crud2
 
 #### npm start
+```
     npm run dev
-
+```
 #### Dependências
 * Tabler Icons
 https://www.npmjs.com/package/@tabler/icons-react
