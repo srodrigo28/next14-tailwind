@@ -20,3 +20,5 @@ https://www.npmjs.com/package/@tabler/icons-react
     npm i @tabler/icons-react
 ```
 
+#### Referências
+https://www.youtube.com/watch?v=nEI9GsvqGmU

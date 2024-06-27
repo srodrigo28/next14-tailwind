@@ -5,28 +5,30 @@ const aulas: Aula[] = [
         id: "1",
         nome: "React",
         curso: "React Fundamentals",
-        duracao: 40,
+        duracao: 4000,
         status: 'publicado'
     },
     {
         id: "2",
         nome: "Next.js",
         curso: "Next.js Essentials",
-        duracao: 60,
+        duracao: 6000,
         status: 'desativada'
     },
     {
         id: "3",
         nome: "TypeScript",
         curso: "TypeScript Basics",
-        duracao: 30,
+        duracao: 3000,
         status: 'rascunho'
     },
     {
         id: "4",
         nome: "CSS Grid",
         curso: "CSS Grid Essentials",
-        duracao: 20,
+        duracao: 2000,
         status: 'publicado'
     }
 ];
+
+export default aulas;
