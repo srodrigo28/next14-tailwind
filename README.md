@@ -19,3 +19,4 @@ https://www.npmjs.com/package/@tabler/icons-react
 ```
     npm i @tabler/icons-react
 ```
+
