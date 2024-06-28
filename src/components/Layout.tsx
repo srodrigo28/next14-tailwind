@@ -1,6 +1,6 @@
 import Menu from "./Menu"
 
-export interface LayoutProps{
+interface LayoutProps{
     children: any
 }
 

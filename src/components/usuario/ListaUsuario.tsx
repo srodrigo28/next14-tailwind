@@ -1,7 +1,6 @@
 import usuarios from "@/app/data/constants/usuarios";
 import { Usuario } from "@/core/model/Usuario";
 import Image from "next/image";
-import Header from "../Header";
 
 interface LinhaUsuarioProps{
     usuario: Usuario

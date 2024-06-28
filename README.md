@@ -19,6 +19,15 @@ https://www.npmjs.com/package/@tabler/icons-react
 ```
     npm i @tabler/icons-react
 ```
+* shdcn 
+``` https://ui.shadcn.com/docs/components/accordion
+npx shadcn-ui@latest init
+```
+```
+npx shadcn-ui@latest add dropdown-menu
+```
 
-#### Referências
+#### Referências 1:30
 https://www.youtube.com/watch?v=nEI9GsvqGmU
+
+https://app.dnc.group/?selectedTab=criar-conta&utm_source=site&utm_medium=organic&utm_campaign=conta-gratuita&utm_content=criar-conta-hero
