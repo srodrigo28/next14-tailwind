@@ -1,34 +1,32 @@
 // import Aula from "@/core/model/Aula";
 
-const produtos = [
+import { Produto } from "@/core/model/Produto";
+
+const produtos: Produto[] = [
     // const produtos: Aula[] = [
     {
         id: "1",
         nome: "React",
-        curso: "React Fundamentals",
-        duracao: 4000,
-        status: 'publicado'
+        preco: "React Fundamentals",
+        quantidade: "4000"
     },
     {
         id: "2",
         nome: "Next.js",
-        curso: "Next.js Essentials",
-        duracao: 6000,
-        status: 'desativada'
+        quantidade: "200",
+        preco: "6000"
     },
     {
         id: "3",
         nome: "TypeScript",
-        curso: "TypeScript Basics",
-        duracao: 3000,
-        status: 'rascunho'
+        preco: "3000",
+        quantidade: "20"
     },
     {
         id: "4",
         nome: "CSS Grid",
-        curso: "CSS Grid Essentials",
-        duracao: 2000,
-        status: 'publicado'
+        preco: "2000",
+        quantidade: "30"
     }
 ];
 
