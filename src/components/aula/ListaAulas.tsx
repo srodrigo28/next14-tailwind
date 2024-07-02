@@ -17,7 +17,7 @@ function LinhaAula(props : LinhaAUlaProps){
                 <span className="text-2xl font-bold">{props.aula.id} - {props.aula.nome}</span>
                 <span className="text-zinc-400">{props.aula.curso}</span>
            </div>
-           <div className=" flex items-center gap-10 text-1xl font-extrabold">
+           <div className="flex items-center gap-10 text-1xl font-extrabold">
                 <StatusAula valor={props.aula.status} />
                 <div> {Duracao.formatar(props.aula.duracao)} </div>
            </div>

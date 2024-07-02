@@ -1,4 +1,4 @@
-import { Icon123, IconAdjustmentsCode, IconExchangeOff, IconHome, IconRouterOff, IconVideoMinus } from "@tabler/icons-react";
+import { Icon123, IconAdjustmentsCode, IconExchangeOff, IconHome, IconMoneybag, IconRouterOff, IconVideoMinus } from "@tabler/icons-react";
 import Link from "next/link";
 import { ElementType } from "react";
 
@@ -24,7 +24,8 @@ export default function Menu(){
                 <ItemMenu icone={IconHome} label="Produtos" url="/produto" />
                 <ItemMenu icone={Icon123} label="Clientes" url="/cliente" />
                 <ItemMenu icone={IconAdjustmentsCode} label="Funcionários" url="/funcionario" />
-                <ItemMenu icone={IconVideoMinus} label="Aula" url="/Aula" />
+                <ItemMenu icone={IconVideoMinus} label="Aula" url="/aula" />
+                <ItemMenu icone={IconMoneybag} label="Conta" url="/conta" />
                 <ItemMenu icone={IconExchangeOff} label="Sair" url="/" />
             </nav>
         </aside>

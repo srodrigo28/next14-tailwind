@@ -8,7 +8,7 @@ interface LinhaUsuarioProps{
 
 function LinhaUsuario(props: LinhaUsuarioProps){
     return(
-        <div className="p-3 bg-gray-600 mb-3 rounded-md">
+        <div className="p-3 bg-blue-600 mb-3 rounded-md hover:bg-blue-800">
             <div className="flex gap-2">
                 <Image
                     src="https://media.istockphoto.com/id/1321856038/pt/foto/portrait-beautiful-young-woman-with-clean-fresh-skin.webp?b=1&s=170667a&w=0&k=20&c=vFLzgzCXVnZku-zspzTFijmt-QnFaYZZtDJi1V_TscY="
@@ -18,8 +18,8 @@ function LinhaUsuario(props: LinhaUsuarioProps){
                     className="rounded-full"
                 />
                 <div className="flex flex-col">
-                    <span>{props.usuario.nome}</span>
-                    <span className="text-sm text-zinc-400">{props.usuario.email}</span>
+                    <span className="text-2xl text-white font-bold">{props.usuario.nome}</span>
+                    <span className="text-sm text-white">{props.usuario.email}</span>
                 </div>
             </div>
         </div>

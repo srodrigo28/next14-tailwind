@@ -14,6 +14,7 @@ export default function Cadastro(){
     const { aulas, duracaoTotal, filtrarAulas } = useAulas() 
     return(
         <Layout>
+
             <div className="flex items-center justify-around">
                 <Titulo
                     principal="Acervo de cursos"
@@ -24,6 +25,7 @@ export default function Cadastro(){
             </div>
 
             <div className="flex flex-col">
+
                 <div className="grid grid-cols-4 gap-3 mt-5">
                     <Estatistica 
                         icone={IconClock} 
@@ -32,8 +34,11 @@ export default function Cadastro(){
                         text="Duração total" 
                     />
                 </div>
+
                 <ListaAulas aulas={aulas} />
+                
             </div>
+
         </Layout>
     )
 }
