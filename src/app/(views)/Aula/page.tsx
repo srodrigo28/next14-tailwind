@@ -1,39 +1,17 @@
 'use client'
 
-import { useEffect, useState } from "react";
 import { IconClock, IconVideo } from "@tabler/icons-react";
 
-import Aula from "@/core/model/Aula";
 import Layout from "@/components/Layout";
 import Duracao from "@/core/utils/Duracao";
 import Titulo from "@/components/shared/Titulo";
 import ListaAulas from "@/components/aula/ListaAulas";
-import listaDeAulas from "@/app/data/constants/aulas";
 import Estatistica from "@/components/shared/Estatistica";
 import FiltrarStatus from "@/components/shared/FiltrarStatus";
+import useAulas from "@/app/data/constants/hook/useAulas";
 
 export default function Cadastro(){
-    const [aulas, setAulas] = useState<Aula[]>(listaDeAulas)
-    const [duracaoTotal, setDuracaoTotal] = useState<number>(0)
-
-    function filtrarAulas(status?: string | null){
-        
-        const aulasFiltradas: Aula[] = listaDeAulas.filter( 
-            (aula) => aula.status === status || !status 
-        )
-        setAulas(aulasFiltradas)
-        // console.log(status)
-    }
-
-    useEffect(() => {
-        calcularDuracaoTotal(aulas)
-    }, [aulas])
-
-    function calcularDuracaoTotal(aulas: Aula[]){
-        const duracaoTotal = aulas.reduce((acc, aula) => acc + aula.duracao, 0)
-        setDuracaoTotal(duracaoTotal)
-    }
-
+    const { aulas, duracaoTotal, filtrarAulas } = useAulas() 
     return(
         <Layout>
             <div className="flex items-center justify-around">
