@@ -1,6 +1,6 @@
 import Aula from "@/core/model/Aula"
 import { useEffect, useState } from "react"
-import listaDeAulas from '../../constants/aulas'
+import listaDeAulas from '../listaDeAulas'
 
 export default function useAulas(){
     const [aulas, setAulas] = useState<Aula[]>(listaDeAulas)

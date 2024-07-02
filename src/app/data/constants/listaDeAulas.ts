@@ -1,6 +1,6 @@
 import Aula from "@/core/model/Aula";
 
-const aulas: Aula[] = [
+const listaDeAulas: Aula[] = [
     {
         id: "1",
         nome: "React",
@@ -31,4 +31,4 @@ const aulas: Aula[] = [
     }
 ];
 
-export default aulas;
+export default listaDeAulas;
